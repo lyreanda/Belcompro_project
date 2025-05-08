@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398693780435",
+    "project_id": "belcompro-d8181",
+    "storage_bucket": "belcompro-d8181.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398693780435:android:8ecd91d387615e4bf5fd26",
+        "android_client_info": {
+          "package_name": "com.example.belcompro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp99WlXXL62hrXKHXQFQVhZVW6tTvK8GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
