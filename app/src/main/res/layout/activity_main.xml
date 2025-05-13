@@ -209,7 +209,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Текст для service3"
+                        android:text="Ремонт игровых консолей"
                         android:textColor="#808080"
                         android:gravity="center" />
                 </LinearLayout>
@@ -234,7 +234,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Текст для service4"
+                        android:text="Ремонт акустики"
                         android:textColor="#808080"
                         android:gravity="center" />
                 </LinearLayout>
@@ -266,7 +266,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Текст для service3"
+                        android:text="Установка и настройка ПО"
                         android:textColor="#808080"
                         android:gravity="center" />
                 </LinearLayout>
@@ -291,10 +291,158 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Текст для service4"
+                        android:text="Прокат ноутбуков"
                         android:textColor="#808080"
                         android:gravity="center" />
                 </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/advantages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/advantages" />
+
+            <ImageView
+                android:id="@+id/BelcomproInf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/belcomproinf" />
+            <Button
+                android:id="@+id/detailsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#F05423"
+            android:text="Подробнее"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:contentDescription="Кнопка Подробнее"/>
+
+            <ImageView
+                android:id="@+id/OurAdvantages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ouradvantages" />
+
+            <ImageView
+                android:id="@+id/ContactDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/resource__"
+                android:layout_gravity="start"
+            android:layout_marginStart="16dp" />
+
+            <ImageView
+                android:id="@+id/SC_Inf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sc_inf"
+                android:layout_gravity="start"
+            android:layout_marginStart="16dp" />
+
+            <ImageView
+                android:id="@+id/HelpdeskInf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/helpdeskinf"
+                android:layout_gravity="start"
+            android:layout_marginStart="16dp" />
+
+            <ImageView
+                android:id="@+id/DepartmentInf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Центральное изображение"
+                android:scaleType="fitCenter"
+                android:src="@drawable/departmentinf"
+                android:layout_gravity="start"
+            android:layout_marginStart="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:padding="16dp"
+                android:gravity="start"
+                android:text="
+            Услуги.\n
+            Контакты.\n
+            ООО «БелКомпро», г. Минск ул. Свердлова\n
+            д. 23/1 оф. 23.\n
+            Свидетельство о государственной\n
+            регистрации №191134887 от 20.03.2009\n
+            года выдано Мингорисполкомом." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#000000"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bank" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bank2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bank3" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bank4" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bank5" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bank6" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Belcompro"
         tools:targetApi="31">
         <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthorizationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisitrationActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Belcompro"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
